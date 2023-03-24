@@ -1,0 +1,46 @@
+<div class="form-froup row">
+
+    <label class="col-sm-2 col-form-label">Client Name</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="clientName"
+        placeholder="Enter Client Name">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Client Last Name</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="clientLastName"
+        placeholder="Enter Client Last Name">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Birth Date</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="birthDate"
+        placeholder="Enter Birth Date">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Gender</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="gender"
+        placeholder="Enter Gender">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Client History</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="clientHistory"
+        placeholder="Enter Client Histroy">
+    </div>
+
+    <label class="col-sm-2 col-form-label">Client Address</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="clientAddress"
+        placeholder="Enter Client Address">
+    </div>
+</div>
+
+<button (click)="addClient()" *ngIf="client.ClientId==0" class="btn btn-primary">
+    Add
+</button>
+<button (click)="updateClient()" *ngIf="client.ClientId!=0" class="btn btn-primary">
+    Update
+ </button>
+

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Movii.Common\Movii.Common.csproj" />
+      <ProjectReference Include="..\Movii.Domain\Movii.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

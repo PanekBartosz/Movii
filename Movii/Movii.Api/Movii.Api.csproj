@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.2" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Movii.Common\Movii.Common.csproj" />
+      <ProjectReference Include="..\Movii.Data.Sql\Movii.Data.Sql.csproj" />
+      <ProjectReference Include="..\Movii.Domain\Movii.Domain.csproj" />
+      <ProjectReference Include="..\Movii.IData\Movii.IData.csproj" />
+      <ProjectReference Include="..\Movii.IServices\Movii.IServices.csproj" />
+      <ProjectReference Include="..\Movii.Services\Movii.Services.csproj" />
+	  <ProjectReference Include="..\Movii.Infrastructure\Movii.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

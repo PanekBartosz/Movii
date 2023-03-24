@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "ecb60fcb-9ade-4dd8-8361-fea4a3911cde",
+		"name": "movii_client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/api/v1/client",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"ClientId\" : 21,\r\n\"ClientName\" : \"Imie\",\r\n\"ClientLastName\" : \"Nazwisko\",\r\n\"BirthDate\" : \"1999-01-01T00:00:00\",\r\n\"Gender\" : \"Male\",\r\n\"ClientHistory\" : \"cos1\",\r\n\"ClientAddress\" : \"cos2\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/client",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/v1/client",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/client/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/v1/client",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/client/name/Anna",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"client",
+						"name",
+						"Anna"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/v1/client",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientName\": \"EdytowanaNazwa\",\r\n    \"clientLastName\": \"EdytowaneNazwisko\",\r\n    \"birthDate\": \"1994-01-24T00:00:00\",\r\n    \"gender\": \"Male\",\r\n    \"clientHistory\": \"Mroczny Rycerz - 11.03.2022,Iron Man- 22.03.2022\",\r\n    \"clientAddress\": \"Opole ul.Pruszkowska 22\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/client/edit/20",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"client",
+						"edit",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/v1/client",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientAddress\": \"NOWY ADDRESS\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/client/1/address",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"client",
+						"1",
+						"address"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:5001/api/v1/client",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/api/v1/client/20",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"client",
+						"20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

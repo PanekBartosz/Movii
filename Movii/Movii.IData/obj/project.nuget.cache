@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "GpIZ6IlODWnan95Doglh/7uGU5n0Glp9MfGpTISgB5UTwOi9PTepetXhEwIDEOw3lrWNNxrpobBZCIh3iLKwZg==",
+  "success": true,
+  "projectFilePath": "Z:\\Movii\\zad9\\Movii\\Movii.IData\\Movii.IData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BART-PC\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\BART-PC\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\BART-PC\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
+    "C:\\Users\\BART-PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\BART-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
